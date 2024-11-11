@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to ChatAPI</h1>
+        <h2>Chat with me about your interests, and I'll reply with the details and interesting facts.</h2>
+        <form class="form-container" action="/fruit" method="POST">
+            {% if name %}
+            <p>Hello {{name}}, How was your day?</p>
+            <p class="output">Your name is {{name}} and I am here to know your interest.</p>
+
+            <label for="fruit">Please enter your favorite fruit:</label>
+            <input type="text" id="fruit" name="fruit">
+
+            <center><input class="file_submit" type="submit" value="Submit"></center>
+            {% endif %}
+        </form>
+    </div>
+    <div class="example-section">
+        <div class="example-title"><b>Example User Input:</b></div>
+        <div class="example-content">
+            <p class="example-content"><strong>Example: </strong>Banana, fruit name with capital letter.</p>
+        </div>
+    </div>
+</body>
+
+</html>

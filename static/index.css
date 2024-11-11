@@ -1,0 +1,117 @@
+body {
+  background-color: #5d6d7e;  
+  font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #16181a;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #ebe3e3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 200px;
+  }
+  
+  h1 {
+    color: #1d2022;
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+  }
+  
+  h2 {
+    color: #530a0a;
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+  }
+  
+  p {
+    color: #131111;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .output {
+    color: #131111;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+    ;
+  }
+  
+  .file_submit {
+    background-color: #0e79ec;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px;
+  }
+  
+  .file_submit:hover {
+    background-color: #084a91;
+  }
+  .example-section {
+    background-color: #d7b2f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 2px;
+  }
+  .example-title {
+    text-align: center;
+  }
+  .example-content {
+    color: #131111;
+    text-align:left;
+  }
+  .output {
+    background-color: #b77be9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 545px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 2px;
+  }

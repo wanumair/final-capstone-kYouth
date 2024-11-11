@@ -1,0 +1,55 @@
+<html> 
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="../static/index.css"> 
+
+
+
+
+	</head>
+	
+	<body>
+    <div class="container">  
+    <h1>Welcome to ChatAPI.</h1>
+        <h2>Chat with me with your interest and I reply with the details.</h2>
+
+        <form class="grid" action="/hp_books" method="POST">
+            {% if True %}
+            <p>This segment is for Harry Potter' characters and facts.</p>
+            <div class="output"><p>{{char_fact}}</p>
+            <img src="{{char_image}}">
+            <p>Character's image</p>
+            </div>
+            
+           
+          <label for="name">Next, please enter you favorite Harry Potter's books :</label>
+          <input type="text" id="books" name="books">
+
+          <center><input class="file_submit" type="Submit"></center>
+          {% endif %}
+        </form>
+        
+        
+      </div>  
+      <div class="example-section">
+        <div class="example-title"><b>Example User Input:</b></div>
+        <div class="example-content">
+          <p class="example-content"><strong>Example:</strong> Put the number asscoiate with the book based on the list below;</p>
+          <ol>
+              <li>Harry Potter and the Sorcerer's Stone</li>
+              <li>Harry Potter and the chamber of secrets</li>
+              <li>Harry Potter and the Prisoner of Azkaban</li>
+              <li>Harry Potter and the Goblet of Fire</li>
+              <li>Harry Potter and the Order of the Phoenix</li>
+              <li>Harry Potter and the Half-Blood Prince</li>
+              <li>Harry Potter and the Deathly Hallows</li>
+              <li>Harry Potter and the Cursed Child</li>
+          </ol>
+
+          </div>
+        </div>
+    
+    </body>
+
+</html>

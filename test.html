@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/index.css">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <header>
+            <h1>Welcome to the Fruit Selector</h1>
+            <h2>Let us know your favorite fruit!</h2>
+        </header>
+        <form action="/fruit" method="POST">
+            {% if name %}
+            <div class="center">
+                <h3 class="let_space">Hello {{name}}, How was your day?</h3>
+                <h3>Your name is {{name}} and I am here to know your interest.</h3>
+                <h3>Please enter your favorite fruit:</h3>
+                <input type="text" id="fruit" name="fruit" placeholder="Enter your favorite fruit">
+                <input class="file_submit" type="Submit" value="Submit">
+            </div>
+            {% endif %}
+        </form>
+    </div>
+</body>
+
+</html>
